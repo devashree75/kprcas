@@ -1,0 +1,22 @@
+.header{
+    background-color: black;
+    color: white; 
+    padding: 30px;
+}
+li,h3,ul{
+    display: inline;
+}
+ul{
+    color: white;
+    margin-left: 1000px;
+}
+.awesome{
+    display:flex;
+    flex-direction: column;
+     background-color: black;
+    color: white;
+
+}
+.random{
+
+}

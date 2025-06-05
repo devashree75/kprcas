@@ -1,0 +1,100 @@
+ .parent p{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 50px;
+            letter-spacing: 5px;
+            text-transform: capitalize;
+            text-decoration:line-through;
+        }
+        p:hover{
+            color: aqua;
+            background-color: brown;
+        }
+        .border{
+            border:2px solid purple;
+            padding: 10px;
+        }
+        .margin{
+            border:3px solid aqua;
+            margin-top: 50px;
+            padding: 10px 50px 5px 30px;
+        }
+        .position{
+            border:5px solid red;
+            height:50px;
+        }
+        .relative{
+            position:absolute;
+            top: 60px;
+            left: 80px;
+        }
+        .page{
+            height:150vh;
+             border:3px solid red;
+        }
+
+        .fixed{
+            position:fixed;
+            left:50px;
+        }
+        .sticky{
+            position:sticky;
+            top:10px;
+            left:120px;
+        }
+        .inline{
+            display:block;
+
+        }
+        .flex-container{
+            display: flex;
+            flex-direction:row;
+            background-color: burlywood;
+            border: 2px solid black;
+            padding: 15px;
+            justify-content: space-evenly;
+            height: 100vh;
+            align-items: flex-start;
+
+        }
+        .flex-container div{
+            background-color: aquamarine;
+            border:2px solid black;
+            height: 100px;
+            width: 100px;
+        }
+        .two{
+            flex-shrink: 0;
+        }
+        .header{
+            background-color:gray;
+            color: white;
+            padding:30px;
+        }
+        li,h1,ul{
+            display:inline;
+        }
+        ul{
+            color: brown;
+            margin-left: 1100px;
+        }
+        li:hover{
+            color:cornsilk;
+        }
+        .grid-container{
+            display:grid;
+            grid-template-columns: 50px 50px 50px ;
+            grid-template-rows: 50px 50px;
+            row-gap:20px;
+            column-gap: 20px;
+        }
+        .grid-container div{
+            border: 2px solid black;
+        }
+        .four{
+            grid-row-start: 1;
+            grid-row-end: 4;
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+
+        
