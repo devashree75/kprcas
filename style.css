@@ -96,5 +96,12 @@
             grid-column-start: 1;
             grid-column-end: 5;
         }
+        @media(max-width:468px) {
+            .header{
+                display: flex;
+                flex-direction: column;
+                color: aqua;
+            }
+        }
 
         
